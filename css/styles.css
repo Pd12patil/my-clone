@@ -1,0 +1,269 @@
+/* Base styles for desktop and larger screens */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text {
+    background-color: #B2E6CE;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .no-underline {
+    text-decoration: none;
+  }
+  
+  /* Styles for images */
+  .image1, .image2, .image3, .image4 {
+    border: 2px solid black;
+    box-shadow: 0 0 10px #45A0E6;
+  }
+  
+  .image1 {
+    margin-left: -110px;
+    margin-top: 30px;
+  }
+  
+  .image2 {
+    margin-top: 15px;
+    margin-left: -220px;
+  }
+  
+  .image3 {
+    margin-left: 15px;
+  }
+  
+  .image4 {
+    margin-left: -110px;
+    margin-top: 10px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .left-side {
+    margin-left: 80px;
+  }
+  
+  .heading {
+    margin-top: 80px;
+    font-size: 40px;
+    text-align: justify;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  .for-span {
+    background-color: #FF9900;
+  }
+  
+  .para, .para1 {
+    color: navy;
+    font-weight: bold;
+  }
+  
+  .para {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 25px;
+  }
+  
+  .para1 {
+    margin-top: 15px;
+    margin-left: 90px;
+    font-size: 22px;
+  }
+  
+  .Enroll-btn {
+    background-color: #3B3F54;
+    color: white;
+    font-size: 25px;
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 10px 12px;
+  }
+  
+  .technology-background {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card1, .card2, .card3, .card4 {
+    background-color: white;
+    width: 160px;
+    height: 160px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 10px 12px;
+  }
+  
+  .picture1, .picture2, .picture3, .picture4 {
+    margin-top: 20px;
+  }
+  
+  .btn1 {
+    background-color: #FF9900;
+    font-size: 18px;
+    padding: 3px;
+    margin-left: 550px;
+    margin-top: 0.5px;
+    width: 160px;
+    height: 24px;
+    border: none;
+  }
+  
+  .heading3, .heading2 {
+    background-image: linear-gradient(to right, rgb(201, 207, 248), rgb(200, 230, 240));
+    margin: 4% 0;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .hiring-partner {
+    margin-left: 32px;
+    margin-top: 30px;
+  }
+  
+  .service-container, .placement-container, .teacher {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service-card, .placement-card, .teacher-card {
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px 12px;
+  }
+  
+  .service-card {
+    background-color: #3B3F54;
+    width: 320px;
+    height: 60px;
+  }
+  
+  .service {
+    margin-left: 10px;
+    margin-top: 12px;
+  }
+  
+  .service-text {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: -45px;
+  }
+  
+  .placement {
+    margin-left: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #E5E5E5;
+  }
+  
+  .placement-text, .placement-text1 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .placement-text1 {
+    background-color: #FFD700;
+    width: 315px;
+  }
+  
+  .bottom-side {
+    background-color: #B1B1B1;
+    background-image: linear-gradient(to right, rgb(157, 164, 210), rgb(184, 229, 244));
+    height: 88px;
+    border-radius: 10px 12px;
+  }
+  
+  .teacher-card {
+    width: 320px;
+    height: 200px;
+    border: 3px solid #3B3F54;
+  }
+  
+  /* Mobile View */
+  @media screen and (max-width: 500px) {
+    .text, .para, .para1, .heading, .btn1, .Enroll-btn {
+      font-size: 35px;
+      margin-left: 10px;
+    }
+  
+    .container {
+      /* flex-direction: column;
+      align-items: center; */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .image1, .image2, .image3, .image4 {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .card1, .card2, .card3, .card4, .service-card, .placement-card, .teacher-card {
+      /* width: 100%;
+      margin: 10px 0; */
+      /* width: 50%; */
+      margin: 8%;
+    }
+  
+    .btn1 {
+      margin-left: 0;
+    }
+  }
+  
+  /* Tablet View */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .text, .para, .para1, .heading, .btn1, .Enroll-btn {
+      font-size: 18px;
+      margin-left: 20px;
+    }
+  
+    .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .image1, .image2, .image3, .image4 {
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+  
+    .card1, .card2, .card3, .card4, .service-card, .placement-card, .teacher-card {
+      width: 45%;
+      margin: 10px;
+    }
+  
+    .btn1 {
+      margin-left: 20px;
+    }
+  }
+  
+  /* Desktop View */
+  @media (min-width: 1024px) {
+    /* Desktop-specific styles, if any, can be added here */
+  }
+  
