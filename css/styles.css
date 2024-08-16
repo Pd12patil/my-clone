@@ -42,8 +42,10 @@ body {
   
   .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: row;
+    justify-content: space-evenly; */
   }
   
   .left-side {
@@ -207,15 +209,15 @@ body {
   }
   
   /* Mobile View */
-  @media screen and (max-width: 767px) {
+  /* @media screen and (max-width: 767px) {
     .text, .para, .para1, .heading, .btn1, .Enroll-btn {
       font-size: 25px;
       margin-left: 10px;
     }
   
     .container {
-      /* flex-direction: column;
-      align-items: center; */
+      flex-direction: column;
+      align-items: center;
       display: flex;
       flex-wrap: wrap;
       justify-content: center
@@ -230,9 +232,9 @@ body {
     
   
     .card1 .service-card, .placement-card, .teacher-card {
-      /* width: 100%;
-      margin: 10px 0; */
-      /* width: 50%; */
+      width: 100%;
+      margin: 10px 0; 
+       width: 50%;
      height: auto;
     
  }
@@ -244,9 +246,9 @@ body {
       margin-left: 0;
     }
   }
-  
+   */
   /* Tablet View */
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* @media screen and (min-width: 768px) and (max-width: 1023px) {
     .text, .para, .para1, .heading, .btn1, .Enroll-btn {
       font-size: 18px;
       margin-left: 20px;
@@ -273,9 +275,9 @@ body {
       margin-left: 20px;
     }
   }
-  
+   */
   /* Desktop View */
-  @media (min-width: 1024px) {
+  /* @media (min-width: 1024px) { */
     /* Desktop-specific styles, if any, can be added here */
-  }
+  /* } */
   
