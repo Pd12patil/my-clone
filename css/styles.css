@@ -106,7 +106,7 @@ body {
   .card1 {
     background-color: white;
     width: 160px;
-    height: 160px;
+    height: 180px;
     /* margin: 15px; */
     /* margin: 8%; */
     margin: 2% 20px;
@@ -122,6 +122,12 @@ body {
   .text1,.para-explore {
     text-align: center;
   }
+
+  .text1{
+    font-size: 1rem;
+    
+  }
+  
   
   .btn1 {
     background-color: #FF9900;
