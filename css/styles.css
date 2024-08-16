@@ -97,18 +97,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 8%;
+
   }
   
-  .card1, .card2, .card3, .card4 {
+  .card1 {
     background-color: white;
     width: 160px;
     height: 160px;
-    margin: 15px;
+    /* margin: 15px; */
+    /* margin: 8%; */
+    margin: 2% 20px;
     border: 2px solid black;
     border-radius: 10px 12px;
   }
   
-  .picture1, .picture2, .picture3, .picture4 {
+  .picture1 {
     margin-top: 20px;
   }
   
@@ -205,7 +209,7 @@ body {
   /* Mobile View */
   @media screen and (max-width: 767px) {
     .text, .para, .para1, .heading, .btn1, .Enroll-btn {
-      font-size: 35px;
+      font-size: 25px;
       margin-left: 10px;
     }
   
@@ -214,20 +218,27 @@ body {
       align-items: center; */
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: center
+      
     }
   
-    .image1, .image2, .image3, .image4 {
+    .image1 {
       margin-left: 0;
       margin-top: 10px;
     }
+
+    
   
-    .card1, .card2, .card3, .card4, .service-card, .placement-card, .teacher-card {
+    .card1 .service-card, .placement-card, .teacher-card {
       /* width: 100%;
       margin: 10px 0; */
       /* width: 50%; */
-      margin: 8%;
-    }
+     height: auto;
+    
+ }
+      .picture1 {
+        margin-left: 20%;
+      }
   
     .btn1 {
       margin-left: 0;
@@ -250,6 +261,7 @@ body {
     .image1, .image2, .image3, .image4 {
       margin-left: 10px;
       margin-top: 20px;
+      
     }
   
     .card1, .card2, .card3, .card4, .service-card, .placement-card, .teacher-card {
