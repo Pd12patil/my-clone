@@ -49,12 +49,12 @@ body {
   }
   
   .left-side {
-    margin-left: 140px;
+    margin-left: 250px;
   }
 
-  .right-side {
+  /* .right-side {
     margin-left: 100px;
-  }
+  } */
   
   .heading {
     margin-top: 80px;
