@@ -115,7 +115,12 @@ body {
   }
   
   .picture1 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    margin: 20px 40px;
+  }
+
+  .text1,.para-explore {
+    text-align: center;
   }
   
   .btn1 {
