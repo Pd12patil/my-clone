@@ -51,6 +51,10 @@ body {
   .left-side {
     margin-left: 80px;
   }
+
+  .right-side {
+    margin-left: 100px;
+  }
   
   .heading {
     margin-top: 80px;
